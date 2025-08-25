@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Tabela </title>
+<meta charset="UTF-8"></meta>
+</head>
+<body>
+    <h2> Nosso Contato </h2>
+    <form action="/submit_form" method="post">
+       <label for="name"> Nome: </label> <br>
+       <input type="text" id="name" name="name" placeholder="Digite seu nome" required><br><br>
+       
+       <label for="email">Email:</label><br>
+       <input type="email" id="email" name="email" placeholder="Digite seu email" required><br><br>
+      
+      <label for="mensagem"> Mensagem</label> <br>
+       <textarea type="text" id="mensagem" name="Mensagem"required></textarea>
+       
+       <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>   
